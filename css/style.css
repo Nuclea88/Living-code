@@ -1,2 +1,42 @@
-/*
-*/
+*{
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+p{
+
+
+}
+.Intro{
+    align-items: center;
+}
+h1{
+font-size:60px;
+}
+.buttons-download{
+    display: flex;
+}
+.btn-dwla-ios{
+    background-color: brown;
+    color: white;
+    justify-content: center;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.btn-dwla-android{
+    background-color: brown;
+    color: white;
+    justify-content: center;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.image{
+    width: 100%;
+    height: auto;
+}
+.grid-settings{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
